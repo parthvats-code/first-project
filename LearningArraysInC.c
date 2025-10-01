@@ -3,11 +3,11 @@
 int main()
  {
     int pps[] = {85, 92, 78, 95, 88};  // Array declaration
-    int ssp[4];
+    int ssp[5];
     
     for ( int i = 0 ; i <=4 ; i++)
     {
-        ssp[i]=pps[4-i];
+        ssp[i]=pps[5-i];
     }
     
     for (int i = 0; i < 5 ; i++) 
